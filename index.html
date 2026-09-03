@@ -115,8 +115,30 @@
       </ul>
     </section>
 
+ <!-- ============ GALLERY ============ -->
+    <!-- Shows several items at a time, scroll sideways for more. -->
+    <!-- To add a new item: copy one of these blocks and change the file name + caption. -->
+    <section class="gallery">
 
-     <div class="gallery-item">
+      <div class="gallery-row">
+
+        
+        <!--
+          To add a video file you have saved (like an .mp4), copy this block
+          and change the file name:
+
+          <div class="gallery-item">
+            <video src="video/yourfile.mp4" controls muted playsinline></video>
+            <p class="caption">caption for this video</p>
+          </div>
+        -->
+
+        <!--
+          To add a YouTube video, copy this block. Get the video ID from
+          the YouTube URL, e.g. youtube.com/watch?v=dQw4w9WgXcQ has ID
+          "dQw4w9WgXcQ" — swap that into the src below.
+        -->
+        <div class="gallery-item">
           <div class="video-wrap">
             <iframe
               src="https://www.youtube.com/watch?v=9eNzZ4yX9as"
@@ -128,25 +150,12 @@
           </div>
           <p class="caption">caption for this video</p>
         </div>
-    
-     <div class="gallery-item">
-          <div class="video-wrap">
-            <iframe
-              src="https://youtu.be/beVAZOySnxc?si=MVPyU9Q7r8n53-3m"
-              title="Audiotree"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <p class="caption">caption for this video</p>
-        </div>
 
          <div class="gallery-item">
           <div class="video-wrap">
             <iframe
-              src="https://www.youtube.com/live/W8yYZtLzEBc?si=vkHZwjhbAnKQ56bV"
-              title="Bakers City"
+              src="https://youtu.be/beVAZOySnxc?si=MVPyU9Q7r8n53-3m&t=850"
+              title="Astrachan Audiotree"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
@@ -154,6 +163,24 @@
           </div>
           <p class="caption">caption for this video</p>
         </div>
+    
+    
+         <div class="gallery-item">
+          <div class="video-wrap">
+            <iframe
+              src="https://www.youtube.com/live/W8yYZtLzEBc?si=vkHZwjhbAnKQ56bV"
+              title="Tobacco City in Bakers City"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="caption">caption for this video</p>
+        </div>
+      </div><!-- /gallery-row -->
+    </section>
+ 
+
     <!-- ============ CONTACT (very bottom) ============ -->
     <footer class="contact">
       <p>Contact<br> 
